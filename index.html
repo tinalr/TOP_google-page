@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <title>Google</title>
         <meta lang="en" charset="UTF-8">
+        <link rel="stylesheet" href="reset.css" type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
-    </head>
-    <body>
+</head>
+
+<body>
 <header>
-<nav id="t-left-options">
-    <ul>
+<nav class="options">
+    <ul class="options">
     <li><a href="">About</a></li>
     <li><a href="">Store</a></li>
     </ul>
 </nav>
-<nav id="t-right-options">
-    <ul>
+<div class="options hf-center"></div>
+<nav class="options">
+    <ul class="options">
     <li><a href="">Gmail</a></li>
     <li><a href="">Images</a></li>
-    <li><button id="app-launcher"></button></li>
-    <li><button href="">Sign in</button></li>
+    <li><button id="app-launcher">
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        <div class="tiny-square"></div>
+        
+    </button></li>
+    <li><button id="signin" href="">Sign in</button></li>
     </ul>
 </nav>
 </header>
 
 <main>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"><br>
-<input type="search" id="searchbar" name="searchbar"><br>
-<button type="submit">Google Search</button>
-<button type="submit">I'm Feeling Lucky</button>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"><br><br>
+<input type="search" id="searchbar" name="searchbar"><br><br>
+<div id="submit">
+    <button type="submit">Google Search</button>
+    <button type="submit">I'm Feeling Lucky</button>
+</div>
 </main>
 
 <footer>
-<nav id="b-left-options">
-    <ul>
+<nav class="options">
+    <ul class="options">
     <li><a href="">Advertising</a></li>
     <li><a href="">Business</a></li>
     <li><a href="">How Search Works</a></li>
     </ul>
 </nav>
-<nav id="b-right-options">
-    <ul>
+<div class="options hf-center"></div>
+<nav class="options">
+    <ul class="options">
     <li><a href="">Privacy</a></li>
     <li><a href="">Terms</a></li>
     <li><a href="">Settings</a></li>
@@ -47,5 +64,5 @@
 </nav>
 </footer>
 
-    </body>
+</body>
 </html>
